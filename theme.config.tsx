@@ -1,18 +1,6 @@
-import React from 'react'
-import { DocsThemeConfig } from 'nextra-theme-docs'
-
-const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+export default {
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://github.com/shuding/nextra'
   },
-  chat: {
-    link: 'https://discord.com',
-  },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
-  footer: {
-    text: 'Nextra Docs Template',
-  },
+  logo: <b>Project</b>
 }
-
-export default config
